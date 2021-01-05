@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0%;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+}
+
+p{
+    color: darkgray;
+}
+.blue-span{
+    color: #008CBA;
+}
+.orange-color{
+    color: orange;
+}
+.popin{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 6%;
+    height: 100%;
+}
+
+section{
+    width: 100%;
+    height:500px;
+}
+.top-section{
+    background-image: url(developer-portfolio/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 140px;
+}
+button{
+    border: none;
+    padding: 15px 30px;
+    margin: 2px 2px;
+    background-image: linear-gradient(60deg, rgb(25, 0, 255),#008CBA);
+}
+.link-dec{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-transform: lowercase;
+}
+.m-sec{
+background:  url(developer-portfolio/dream-bg.png),linear-gradient( 45deg, rgb(241, 176, 91),#F8F8FF) ;
+background-repeat: no-repeat;
+background-position: right;
+padding-top: 50px ;
+
+padding-bottom: 50px;}
+
+#big-span{
+    font-size: 25px;
+    text-transform: lowercase;
+    font-weight: 900px;
+    font-family: 'Lobster', cursive;
+}
+.button-yellow{
+    background-image: linear-gradient(45deg, orange,rgb(229, 255, 0) );
+}
+    ul > li{
+        font-size: 18px;
+
+        font-family: 'Lobster', cursive;
+        color: rgb(25, 21, 255);
+    }
+}
+.text-align{
+    text-align: center;
+}
+
+
+.box{
+    width: 30%;
+    float: left;
+    padding-left:8px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px darkgray;
+    height: 300px;
+}
+#exps{
+    height: 500px;
+    width: 100%;
+    background-image: url(developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+#one{
+    border-left: 8px solid;
+    border-image: linear-gradient(60deg, #F97D62,orange) ;
+    border-image-slice: 1 ;
+}
+#two{
+    border-left: 8px solid;
+    border-right: 8px solid;
+    border-image: linear-gradient(60deg, #0011ff,rgb(0, 162, 255)) ;
+    border-image-slice: 1 ;
+}
+#three{
+    border-right: 8px solid;
+    border-image: linear-gradient(60deg, #e5ff00,rgb(147, 172, 5)) ;
+    border-image-slice: 1 ;
+}
+footer{    
+    height: 300px;
+    width: 100%;}
+.footer{
+    background-image: url(developer-portfolio/image\ 16.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.hf{
+    width: 35%;
+    float: left;
+    margin-left: 10px;
+    padding-left: 100px;
+}
+.sec{
+
+    width: 100%
+}
+
+form{
+    width: 100%;
+    height: auto;
+}

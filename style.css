@@ -114,14 +114,15 @@ padding-bottom: 50px;}
     border-image-slice: 1 ;
 }
 footer{    
-    height: 300px;
-    width: 100%;}
-.footer{
-    background-image: url(developer-portfolio/image\ 16.png);
-    background-size: 200px 200px;
+    height: 500px;
+    width: 100%;
+    border-top: 5px solid yellow;
+    background-image: url(developer-portfolio/dream-bg.png), linear-gradient(60deg,cyan,blue);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center right;
+    
 }
+
 .hf{
     width: 35%;
     float: left;
@@ -133,7 +134,8 @@ footer{
     width: 100%
 }
 
-form{
-    width: 100%;
+input{
+    width: 50%;
+    padding: 12px 20px;
     height: auto;
 }
